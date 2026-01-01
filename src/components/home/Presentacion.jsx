@@ -6,7 +6,7 @@ const Presentacion=()=>{
        <br/>
         <hr  class="m-4 w-3 "/>
        <div class="container  p-3">
-            <h4 className={`fw-bold  ${styles.presentacion}`}>BIENVENIDOS A NUESTRA ESCUELA</h4>
+            <h4 className={`fw-bold  ${styles.presentacion}`}>BIENVENIDOS A LA TECNICA 2</h4>
             <hr className={`my-4" ${styles.subr} `}/>
         <p class="lead ">
             En el corazón de San Miguel, nuestra Escuela Secundaria Técnica forma jóvenes con una sólida educación académica,

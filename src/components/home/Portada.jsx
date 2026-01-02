@@ -13,7 +13,7 @@ const Portada=()=>{
     return <>
     <div className={`container-fluid ${styles.portada}` }>
           <div className={`container text-center ${styles.contenido}`} >
-            <h1 data-aos="fade-down" className="fw-bold text-dark">ESCUELA TÉCNICA N°2 <br/>"PEREYRA HÉCTOR"</h1>
+            <h1 data-aos="fade-down" className="fw-bold text-dark">ESCUELA TÉCNICA N°2 <br/>"República Argentina"</h1>
           </div>
           <div className=" contenido container text-center  ">
             <section  data-aos="fade-up"  className= { `${styles.citaBelgrano}`} >

@@ -6,7 +6,9 @@ import insta from "../assets/images/instagram.png";
 const NavB = () => {
   return (
     <>
-      <nav className={`navbar navbar-expand-lg navbar-light fixed-top m ${styles.navbars}`}>
+      <nav
+        className={`navbar navbar-expand-lg navbar-light fixed-top m ${styles.navbars}`}
+      >
         <div className="container-fluid">
           <a className="navbar-brand text-light" href="#">
             <img className="" src={escudo} alt="Escudo" />
@@ -44,7 +46,7 @@ const NavB = () => {
                   ATIVIDADES
                 </a>
               </li>
-               <li className="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle   text-light"
                   href="#"
@@ -57,42 +59,40 @@ const NavB = () => {
                 </a>
 
                 <ul
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a   
-                        className="dropdown-item"
-                        href="http://localhost:5174/login/alumnos"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                  >
-                    Alumnos
-                  </a>
-                </li>
-                <li>
-                  <a   
-                        className="dropdown-item"
-                        href="http://localhost:5174/login/preceptores"
-                        rel="noopener noreferrer"
-                  >
-                    Preceptores
-                  </a>
-                </li>
-                
-                <li>
-                  <a 
-                  
-                        className="dropdown-item"
-                        href="http://localhost:54928/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                  
-                  >
-                    Profesores
-                  </a>
-                </li>
-              </ul> 
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href=" "
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Alumnos
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href=" "
+                      rel="noopener noreferrer"
+                    >
+                      Preceptores
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href="/app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Profesores
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
 
